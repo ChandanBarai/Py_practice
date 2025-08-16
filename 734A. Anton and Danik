@@ -1,0 +1,21 @@
+x=input()
+y=input()
+i=0
+a=0
+d=0
+if int(x)==len(y):
+    while i<= len(y)-1:
+        if y[i]=="A":
+            a+=1
+        else:
+            d+=1
+ 
+        i+=1
+ 
+ 
+if a>d:
+    print("Anton")
+elif d>a:
+    print("Danik")
+else:
+    print("Friendship")

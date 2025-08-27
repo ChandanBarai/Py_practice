@@ -1,0 +1,15 @@
+T=int(input())
+i=0
+stay=0
+x=[]
+y=0
+while i<=T-1:
+    a=input().split()
+    up=int(a[1])-int(a[0])
+    stay+=up
+    x.append(stay)
+ 
+    i += 1
+ 
+get=max(x)
+print(get)
